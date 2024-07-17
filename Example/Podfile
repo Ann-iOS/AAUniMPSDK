@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AAUniMPSDK_Example' do
+  pod 'AAUniMPSDK', :path => '../'
+
+  target 'AAUniMPSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

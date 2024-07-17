@@ -1,0 +1,6 @@
+framework module AAUniMPSDK {
+  umbrella header "AAUniMPSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
